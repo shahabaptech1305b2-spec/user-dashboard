@@ -1,7 +1,14 @@
+import { Link, useNavigate } from "react-router-dom";
 import React from "react";
 
 function LeftSideBar(props) {
     const {leftSideBarFeatures} = props
+    const navigate = useNavigate()
+
+    const handleSignOutBtn = () => {
+       navigate("/")
+    }
+
     return(
         <div className="h-full flex flex-col py-6">
             {/* Sidebar Logo / Brand */}
@@ -35,7 +42,7 @@ function LeftSideBar(props) {
 
             {/* Sidebar Footer (Logout wagera ke liye) */}
             <div className="px-6 pt-6 border-t border-gray-800">
-                <button className="text-sm text-gray-500 hover:text-red-400 transition-colors">
+                <button type="button" onClick={handleSignOutBtn} className="text-sm text-gray-500 hover:text-red-400 transition-colors">
                     Sign Out
                 </button>
             </div>
