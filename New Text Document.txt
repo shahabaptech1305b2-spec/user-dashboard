@@ -1,0 +1,17 @@
+🏠 Dashboard/Overview:
+Ek general summary jahan main stats (Total Sales, Revenue) nazar aayein.
+
+📦 Products:
+Is page par aap products ki list dikha sakte hain (Image, Price, Stock status).
+
+🛒 Orders:
+Pending aur Completed orders ki list. Static data mein aap 5-10 fake orders dikha sakte hain.
+
+👥 Customers:
+Un users ki list jinhon ne shopping ki hai.
+
+📊 Analytics:
+Yahan aap Recharts library use karke sales ka graph dikha sakte hain (static data par bhi graph bohat cool lagta hai).
+
+⚙️ Settings:
+Profile update karne ya theme (Dark/Light mode) change karne ke liye.
